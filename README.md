@@ -139,6 +139,13 @@ https://github.com/AliShahSafdari/Testing-To-Do-list
 - LinkedIn: [paul](https://www.linkedin.com/in/paul-tesfaye-687820215/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## :busts_in_silhouette: Authors <a name="authors"></a>
+:bust_in_silhouette: **Alishah Mohammad Kazim**
+- GitHub: [alishaSafdari](https://github.com/AliShahSafdari)
+- LinkedIn: [alishah](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 ## Future Features <a name="future-features"></a>
 
