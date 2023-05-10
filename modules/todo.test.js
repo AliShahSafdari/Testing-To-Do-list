@@ -23,11 +23,19 @@ describe('We add the addtask and deleteTask functions ', () => {
     expect(newItem).not.toBe([]);
   });
 
-  test('will delete the task', () => {
+  test('when the the user deletes task the task should not be avialibale', () => {
     expect(deleteTask({
-      task: 'Add the description for test',
+      task: 'Delete the description for test',
       id: 1,
       status: false,
     })).not.toStrictEqual([]);
+  });
+
+  test('when the the user deletes task the task should not be avialibale', () => {
+    expect(deleteTask({
+      task: 'Delete Task 2',
+      id: 1,
+      status: false,
+    })).toStrictEqual([]);
   });
 });
