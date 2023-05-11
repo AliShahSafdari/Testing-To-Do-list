@@ -1,8 +1,8 @@
-const { edit, update, clearAll } = require('../_mocks_/edit.js');
+const { editTask, updateStatus, clearAll } = require('../_mocks_/editUpdateClear.js');
 
 describe('implement edit the Task description and clear all ', () => {
   test('edit the taks', () => {
-    const editItem = edit({
+    const editItem = editTask({
       id: 1,
       task: 'Ok Alishah',
       status: false,
@@ -10,7 +10,7 @@ describe('implement edit the Task description and clear all ', () => {
     expect(editItem).toBe(editItem);
   });
   test('update the status', () => {
-    expect(update(1)).toStrictEqual({
+    expect(updateStatus(1)).toStrictEqual({
       id: 1,
       task: 'Ok Alishah',
       status: true,
